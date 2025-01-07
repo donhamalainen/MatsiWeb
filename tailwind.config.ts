@@ -8,9 +8,21 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      colors: {},
+      fontFamily: {
+        ChillaxMedium: ["var(--chillax-medium)", "Arial", "sans-serif"],
+        ChillaxSemibold: ["var(--chillax-semibold)", "Arial", "sans-serif"],
+        GeneralSansRegular: [
+          "var(--generalsans-regular)",
+          "Arial",
+          "sans-serif",
+        ],
+        GeneralSansMedium: ["var(--generalsans-medium)", "Arial", "sans-serif"],
+        GeneralSansSemibold: [
+          "var(--generalsans-semibold)",
+          "Arial",
+          "sans-serif",
+        ],
       },
     },
   },
